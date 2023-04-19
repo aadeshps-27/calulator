@@ -11,10 +11,10 @@
    
 width: 400px;
 height: 550px;
-margin-top: 20px;
-margin-top: 50px;
+margin-top: 0px;
+margin-top: 0px;
  border-radius: 4% 4% 15% 15%;;
- box-shadow:  inset 2px 3px 5px black;
+ box-shadow:   -5px 10px 8px rgb(0, 0, 0);
  font-family: "seven_segment";
     background-color:rgba(72,82,109,255)
 
@@ -116,39 +116,22 @@ font-weight: bolder;
    box-shadow:   2px 3px 5px black
 }
 .body{
-    background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+    background-image: url(https://cdn.wallpapersafari.com/61/51/LgXAr6.jpg);
    height: 583px;
    background-size: cover;
 }
-#text{
-    text-transform: uppercase;
-    
-   text-decoration: overline;
-   font-size: larger;
-   color: black;
-   position: absolute;
-    top: 200px;
-    left: 110px;
-    
-    font-size: 50px;
-    background-color:none;
-    text-shadow: 2px 3px 5px black;
-   
-    
 
-}
 #text1{
-    text-transform: uppercase;
-    color: black;
-    position: absolute;
-    top: 280px;
-    left: 110px;
+    width: fit-content;
     font-size: larger;
     background-color: red;
+    box-shadow:  2px 3px 5px black;
     text-shadow: 2px 3px 5px black;
     margin: 10px;
+    font-family: "seven_segment";
     color:white
     
+   
     
 
    
@@ -184,110 +167,9 @@ i{
     left: 100px;
 }
 }
-@media (max-width:500px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-    #text{
-        display: none;
-    }
-    #text1{
-        font-size: 10px;
-        position: absolute;
-        top: 10px;
-        left: 40px;
-    }
-}
 
 
 
 
 
-
-
-    @media (max-width:800px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-        #text{
-            display: none;
-        }
-        #text1{
-            font-size: 10px;
-            position: absolute;
-            top: 10px;
-            left: 150px;
-        }
-    }
-        @media (max-width:900px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-            #text{
-                display: none;
-            }
-            #text1{
-                font-size: 10px;
-                position: absolute;
-                top: 10px;
-                left: 260px;
-            }
-        }
-        @media (max-width:1200px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-            #text{
-                display: none;
-            }
-            #text1{
-                font-size: 10px;
-                position: absolute;
-                top: 10px;
-                left: 360px;
-            }
-        }
-
-            @media (max-width:1000px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-                #text{
-                    display: none;
-                }
-                #text1{
-                    font-size: 10px;
-                    position: absolute;
-                    top: 10px;
-                    left: 290px;
-                }
-
-
-
-
-
-}
-@media (max-width:600px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-    #text{
-        display: none;
-    }
-    #text1{
-        font-size: 10px;
-        position: absolute;
-        top: 10px;
-        left: 100px;
-    }
-
-
-
-
-
-}
-@media (max-width:800px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-    #text{
-        display: none;
-    }
-    #text1{
-        font-size: 10px;
-        position: absolute;
-        top: 10px;
-        left: 200px;
-    }
-
-
-
-
-
-}
+   
