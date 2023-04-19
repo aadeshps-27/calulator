@@ -6,6 +6,10 @@ function clearall() {
     
     result.value=""
 }
+function calculateExponential(num) {
+    return Math.pow(result.value ** num);
+  }
+  
 
 function onebyonedel() {
     new1=result.value
