@@ -6,6 +6,7 @@ function clearall() {
     
     result.value=""
 }
+
 function onebyonedel() {
     new1=result.value
     result.value=new1.slice(0,-1)
