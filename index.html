@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel&family=Dancing+Script&family=Julius+Sans+One&family=Kaushan+Script&family=Libre+Baskerville&family=Mynerve&family=Nabla&family=Press+Start+2P&family=Source+Sans+Pro:ital@1&family=Teko:wght@300&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+  
+    <center>
+      <p id="text">calculator</p>
+     
+    <div class="InputBox">
+        <div class="container text-center p-3">
+            <div class="row">
+              <div class="col CASIO">
+              CASIO <br>
+              <span>fx-777</span>
+             
+              </div>
+              <div class="col">
+              <img src="./WhatsApp Image 2023-04-18 at 11.04.06 PM.jpeg" alt="" width="100px" height="30px">
+              </div>
+             
+            </div>
+          </div>
+         
+        <br>
+        <input type="text" id="result">
+        <div class="container text-center p-3">
+            <div class="row">
+              <div class="col">
+                <button id="butt2"onclick="offsrc()">OFF</button>
+                <p id="p1">OFF</p>
+              </div>
+              <div class="col">
+                <button id="butt1"> replay</button>
+              </div>
+              <div class="col">
+                <button id="butt3" class="green" onclick="onscr()">ON</button>
+                <p>ON</p>
+              </div>
+            </div>
+          </div>
+          
+          <button id="cal" onclick="Displaynum(7)" class="byn">7</button>
+          <button id="cal" onclick="Displaynum(8)" class="byn">8</button>
+          <button id="cal"  onclick="Displaynum(9)" class="byn">9</button>
+          <button id="pink" onclick="onebyonedel()" class="byn">DEL</button>
+          <button id="pink"  onclick="clearall()" class="byn">AC</button> <br>
+          <button id="cal" onclick="Displaynum(4) " class="byn">4</button>
+          <button id="cal" onclick="Displaynum(5)" class="byn">5</button>
+          <button id="cal" onclick="Displaynum(6)" class="byn">6</button>
+          <button id="cal" onclick="Displaynum('*')" class="byn">X</button>
+          <button id="cal" onclick="Displaynum('/')" class="byn">÷</button> <br>
+          <button id="cal" onclick="Displaynum(1)" class="byn">1</button>
+          <button id="cal" onclick="Displaynum(2)" class="byn">2</button>
+          <button id="cal" onclick="Displaynum(3)" class="byn">3</button>
+          <button id="cal" onclick="Displaynum('+')" class="byn">+</button>
+          <button id="cal" onclick="Displaynum('-')" class="byn">-</button> <br>
+          <button id="cal"onclick="Displaynum(0)" class="byn">0</button>
+          <button id="cal" onclick="Displaynum('.')" class="byn">.</button>
+          <button id="cal">EXP</button>
+          <button id="cal">Ans</button>
+          <button id="cal" onclick="evaluate1()">=</button> <br>
+       
+          <i>buildby-Aadeshps</i>
+
+
+
+
+    </div>
+   
+   
+    
+</center>
+<script src="./script.js"></script>
+<p id="text1">please turn on your device</p>
+
+</body>
+</html>

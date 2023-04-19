@@ -1,0 +1,293 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "seven_segment";
+    src: url(./seven_segment/Seven\ Segment.ttf);
+    }
+.InputBox{
+   
+width: 400px;
+height: 550px;
+margin-top: 20px;
+margin-top: 50px;
+ border-radius: 4% 4% 15% 15%;;
+ box-shadow:  inset 2px 3px 5px black;
+ font-family: "seven_segment";
+    background-color:rgba(72,82,109,255)
+
+    
+    
+   
+
+}
+input{
+    margin: 30px;
+    width: 340px;
+    height: 70px;
+    background-color: #a7af7c;
+    box-shadow: inset 2px 3px 5px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: right;
+    font-family: "seven_segment";
+padding: 10px;
+font-weight: 100px;
+
+   
+
+}
+.CASIO{
+    color: antiquewhite;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    font-weight: 700;
+    
+    text-shadow: 2px 3px 5px black;
+}
+img{
+    border:  1px solid white;
+    box-shadow:  inset 2px 3px 5px black
+    
+
+
+}
+#butt1{
+
+    height: 90px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #b7b8cd;
+    color: white;
+    font-size: 12px;
+    text-shadow: 2px 3px 5px black;
+    text-transform: uppercase;
+    border: none;
+    box-shadow:   2px 3px 5px black
+    
+}
+#butt2{
+    background-color: #b7b8cd;
+    color:  #b7b8cd;;
+    width: 45px;
+    border-radius: 30px;
+    border: none;
+    box-shadow:   2px 3px 5px black
+}
+#butt3{
+    background-color: #b7b8cd;
+    color:  #b7b8cd;;
+    width: 45px;
+    border-radius: 30px;
+    border: none;
+    box-shadow:   2px 3px 5px black
+}
+p{
+    font-size: 10px;
+    padding: 5px;
+    color:yellow
+    
+}
+#cal{
+    width: 60px;
+   margin: 3px;
+   margin-bottom: 10px;
+   height: 40px;
+   background-color: #b7b8cd;
+   color: white;
+   text-shadow: 2px 3px 5px black;
+   border-radius:0% 0% 30% 30%; 
+   border: none;
+font-weight: bolder;
+   box-shadow:   2px 3px 5px black
+   
+}
+#pink{
+     width: 60px;
+   margin: 3px;
+   margin-bottom: 10px;
+   height: 40px;
+   background-color:#ae6f7a;
+   color: white;
+   text-shadow: 2px 3px 5px black;
+   border-radius:0% 0% 30% 30%; 
+   border: none;
+   box-shadow:   2px 3px 5px black
+}
+.body{
+    background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+   height: 583px;
+   background-size: cover;
+}
+#text{
+    text-transform: uppercase;
+    
+   text-decoration: overline;
+   font-size: larger;
+   color: black;
+   position: absolute;
+    top: 200px;
+    left: 110px;
+    
+    font-size: 50px;
+    background-color:none;
+    text-shadow: 2px 3px 5px black;
+   
+    
+
+}
+#text1{
+    text-transform: uppercase;
+    color: black;
+    position: absolute;
+    top: 280px;
+    left: 110px;
+    font-size: larger;
+    background-color: red;
+    text-shadow: 2px 3px 5px black;
+    margin: 10px;
+    color:white
+    
+    
+
+   
+}
+#cal:hover{
+    transition: .4s;
+    background-color: blue;
+}
+#butt2:hover{
+    transition: .4s;
+    background-color: rgb(255, 0, 0);
+}
+#butt3:hover{
+    transition: .4s;
+    background-color: rgb(21, 255, 0);
+    color: black;
+}
+i{
+    color: white;
+    text-transform: capitalize;
+    text-shadow:  2px 4px 5px black;
+}
+
+@media (max-width:480px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+#text{
+    display: none;
+}
+#text1{
+    font-size: 10px;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+}
+@media (max-width:500px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    #text{
+        display: none;
+    }
+    #text1{
+        font-size: 10px;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+    }
+}
+
+
+
+
+
+
+
+    @media (max-width:800px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+        #text{
+            display: none;
+        }
+        #text1{
+            font-size: 10px;
+            position: absolute;
+            top: 10px;
+            left: 150px;
+        }
+    }
+        @media (max-width:900px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+            #text{
+                display: none;
+            }
+            #text1{
+                font-size: 10px;
+                position: absolute;
+                top: 10px;
+                left: 260px;
+            }
+        }
+        @media (max-width:1200px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+            #text{
+                display: none;
+            }
+            #text1{
+                font-size: 10px;
+                position: absolute;
+                top: 10px;
+                left: 360px;
+            }
+        }
+
+            @media (max-width:1000px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+                #text{
+                    display: none;
+                }
+                #text1{
+                    font-size: 10px;
+                    position: absolute;
+                    top: 10px;
+                    left: 290px;
+                }
+
+
+
+
+
+}
+@media (max-width:600px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    #text{
+        display: none;
+    }
+    #text1{
+        font-size: 10px;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+    }
+
+
+
+
+
+}
+@media (max-width:800px) { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+
+    #text{
+        display: none;
+    }
+    #text1{
+        font-size: 10px;
+        position: absolute;
+        top: 10px;
+        left: 200px;
+    }
+
+
+
+
+
+}
